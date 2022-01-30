@@ -1,4 +1,4 @@
-package com.cicaboat;
+package lucagessi.cicaboat;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -13,7 +13,7 @@ public class ServiceReceiver extends BroadcastReceiver {
 
     public void onReceive(Context context, Intent intent) {
         Log.i("TAG", "ServiceReceiver: onReceive");
-        MyPhoneStateListener phoneListener = new com.cicaboat.MyPhoneStateListener();
+        MyPhoneStateListener phoneListener = new lucagessi.cicaboat.MyPhoneStateListener();
         telephony = (TelephonyManager) context
                 .getSystemService(Context.TELEPHONY_SERVICE);
         telephony.listen(phoneListener, PhoneStateListener.LISTEN_CALL_STATE);

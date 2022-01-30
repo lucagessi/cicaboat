@@ -1,4 +1,4 @@
-package com.cicaboat;
+package lucagessi.cicaboat;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +16,6 @@ public class MainActivity extends FlutterActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState); 
         Log.w(TAG,"Activity created");
-        startService(new Intent(this, com.cicaboat.ServiceReceiver.class));
+        startService(new Intent(this, lucagessi.cicaboat.ServiceReceiver.class));
     }    
 }
