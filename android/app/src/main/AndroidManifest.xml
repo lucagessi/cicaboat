@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cicaboat">
+    package="lucagessi.cicaboat">
    <application
         android:label="cicaboat"
         android:name="${applicationName}"
@@ -30,5 +30,14 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        
+        <receiver android:name="lucagessi.cicaboat.MainActivity$ServiceReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        
     </application>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
 </manifest>
