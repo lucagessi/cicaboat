@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   connectycube_flutter_call_kit: ^2.0.1
   pigeon: ^1.0.15
+  flutter_libserialport: ^0.2.3
 
 dev_dependencies:
   flutter_test:

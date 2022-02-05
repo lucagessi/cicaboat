@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.connectycube.flutter.connectycube_flutter_call_kit" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:4:5-28:19
+8        <receiver android:name="com.connectycube.flutter.connectycube_flutter_call_kit.EventReceiver" />
+8-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:5:9-51
+8-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:5:19-48
+9
+10        <activity
+10-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:6:9-15:43
+11            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.IncomingCallActivity"
+11-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:7:13-49
+12            android:excludeFromRecents="true"
+12-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:8:13-46
+13            android:noHistory="true"
+13-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:9:13-37
+14            android:screenOrientation="sensorPortrait"
+14-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:10:13-55
+15            android:showOnLockScreen="true"
+15-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:11:13-44
+16            android:showWhenLocked="true"
+16-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:12:13-42
+17            android:taskAffinity="com.connectycube.flutter.connectycube_flutter_call_kit.INCOMING_CALL_AFFINITY"
+17-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:13:13-113
+18            android:theme="@android:style/Theme.Holo.NoActionBar"
+18-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:14:13-66
+19            android:turnScreenOn="true" />
+19-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:15:13-40
+20
+21        <service
+21-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:16:9-19:39
+22            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.background_isolates.ConnectycubeFlutterBgPerformingService"
+22-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:17:13-87
+23            android:exported="false"
+23-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:19:13-37
+24            android:permission="android.permission.BIND_JOB_SERVICE" />
+24-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:18:13-69
+25        <service
+25-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:20:9-26:19
+26            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.ConnectycubeFCMService"
+26-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:21:13-51
+27            android:exported="false" >
+27-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:22:13-37
+28            <intent-filter>
+28-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:23:13-25:29
+29                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+29-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:24:17-78
+29-->/home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:24:25-75
+30            </intent-filter>
+31        </service>
+32    </application>
+33
+34</manifest>

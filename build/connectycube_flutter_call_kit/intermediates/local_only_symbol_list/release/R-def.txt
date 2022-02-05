@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color accept_call_btn
+color call_notification_color_accent
+color decline_call_btn
+drawable connectycube_place_holder
+drawable ic_call_end
+drawable ic_call_start
+drawable ic_launcher_foreground
+drawable launch_background
+drawable selector_call_end
+drawable selector_call_start
+drawable shape_oval_green
+drawable shape_oval_red
+drawable shape_oval_white_green
+drawable shape_oval_white_red
+id avatar_img
+id call_type_txt
+id end_call_btn
+id start_call_btn
+id user_name_txt
+layout activity_incoming_call
+style LaunchTheme

@@ -1,0 +1,116 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "map": [
+                {
+                    "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "211",
+                        "endColumns": "72",
+                        "endOffsets": "283"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "76",
+                        "endOffsets": "381"
+                    }
+                },
+                {
+                    "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/0bb55423857de8364e03220462fba20a/jetified-play-services-basement-17.2.1/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                },
+                {
+                    "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "386",
+                        "endColumns": "100",
+                        "endOffsets": "482"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/res/merged/release/values-pt-rPT/values-pt-rPT.xml",
+            "map": [
+                {
+                    "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "211",
+                        "endColumns": "72",
+                        "endOffsets": "283"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "76",
+                        "endOffsets": "381"
+                    }
+                },
+                {
+                    "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/0bb55423857de8364e03220462fba20a/jetified-play-services-basement-17.2.1/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                },
+                {
+                    "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "386",
+                        "endColumns": "100",
+                        "endOffsets": "482"
+                    }
+                }
+            ]
+        }
+    ]
+}

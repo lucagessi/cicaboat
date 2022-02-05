@@ -1,0 +1,10 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+lucagessi/cicaboat/BuildConfig.java
+ lucagessi.cicaboat.BuildConfig
+lucagessi/cicaboat/MyPhoneStateListener.java
+ lucagessi.cicaboat.MyPhoneStateListener
+ lucagessi.cicaboat.MyPhoneStateListener$1
+lucagessi/cicaboat/MainActivity.java
+ lucagessi.cicaboat.MainActivity
+ lucagessi.cicaboat.MainActivity$ServiceReceiver

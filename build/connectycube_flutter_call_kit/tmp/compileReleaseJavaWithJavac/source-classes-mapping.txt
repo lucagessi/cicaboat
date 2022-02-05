@@ -1,0 +1,2 @@
+com/connectycube/flutter/connectycube_flutter_call_kit/BuildConfig.java
+ com.connectycube.flutter.connectycube_flutter_call_kit.BuildConfig

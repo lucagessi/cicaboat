@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout_notification_template_part_time.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_selector_call_start.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/selector_call_start.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_shape_oval_white_red.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/shape_oval_white_red.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_notification_tile_bg.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_notification_icon_background.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout_custom_dialog.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout-v21_notification_action.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-nodpi-v4_connectycube_place_holder.png.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable-nodpi-v4/connectycube_place_holder.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-v21_launch_background.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_selector_call_end.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/selector_call_end.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_notification_bg_low.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_shape_oval_red.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/shape_oval_red.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_ic_call_end.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/ic_call_end.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout_activity_incoming_call.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/layout/activity_incoming_call.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_notification_bg.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_shape_oval_white_green.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/shape_oval_white_green.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_ic_call_start.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/ic_call_start.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable_shape_oval_green.xml.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/packaged_res/release/drawable/shape_oval_green.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/luca/Documents/Mobile/cicaboat/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/luca/Documents/Mobile/cicaboat/build/app/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]
