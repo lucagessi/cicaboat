@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:1:1-29:12
+	package
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:2:5-69
+		INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+		INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:4:5-28:19
+receiver#com.connectycube.flutter.connectycube_flutter_call_kit.EventReceiver
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:5:9-51
+	android:name
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:5:19-48
+activity#com.connectycube.flutter.connectycube_flutter_call_kit.IncomingCallActivity
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:6:9-15:43
+	android:screenOrientation
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:10:13-55
+	android:turnScreenOn
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:15:13-40
+	android:excludeFromRecents
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:8:13-46
+	android:showWhenLocked
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:12:13-42
+	android:noHistory
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:9:13-37
+	android:showOnLockScreen
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:11:13-44
+	android:theme
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:14:13-66
+	android:taskAffinity
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:13:13-113
+	android:name
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:7:13-49
+service#com.connectycube.flutter.connectycube_flutter_call_kit.background_isolates.ConnectycubeFlutterBgPerformingService
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:16:9-19:39
+	android:exported
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:19:13-37
+	android:permission
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:18:13-69
+	android:name
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:17:13-87
+service#com.connectycube.flutter.connectycube_flutter_call_kit.ConnectycubeFCMService
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:20:9-26:19
+	android:exported
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:21:13-51
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:24:17-78
+	android:name
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml:24:25-75
+uses-sdk
+INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+		ADDED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml
+		INJECTED from /home/luca/.pub-cache/hosted/pub.dartlang.org/connectycube_flutter_call_kit-2.0.1/android/src/main/AndroidManifest.xml

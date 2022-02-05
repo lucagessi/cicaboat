@@ -1,0 +1,249 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lucagessi.cicaboat"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/luca/Documents/Mobile/cicaboat/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/luca/Documents/Mobile/cicaboat/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/home/luca/Documents/Mobile/cicaboat/android/app/src/main/AndroidManifest.xml:41:5-75
+15-->/home/luca/Documents/Mobile/cicaboat/android/app/src/main/AndroidManifest.xml:41:22-72
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+16-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+17-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+18-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+19
+20    <application
+21        android:name="android.app.Application"
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] /home/luca/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+25        android:label="cicaboat" >
+26        <activity
+27            android:name="lucagessi.cicaboat.MainActivity"
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29            android:exported="true"
+30            android:hardwareAccelerated="true"
+31            android:launchMode="singleTop"
+32            android:theme="@style/LaunchTheme"
+33            android:windowSoftInputMode="adjustResize" >
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+42                android:name="io.flutter.embedding.android.NormalTheme"
+43                android:resource="@style/NormalTheme" />
+44
+45            <intent-filter>
+46                <action android:name="android.intent.action.MAIN" />
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+56            android:name="flutterEmbedding"
+57            android:value="2" />
+58
+59        <receiver
+60            android:name="lucagessi.cicaboat.MainActivity$ServiceReceiver"
+61            android:enabled="true" >
+62            <intent-filter>
+63                <action android:name="android.intent.action.PHONE_STATE" />
+64            </intent-filter>
+65        </receiver>
+66        <receiver android:name="com.connectycube.flutter.connectycube_flutter_call_kit.EventReceiver" />
+66-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-105
+66-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:8:19-102
+67
+68        <activity
+68-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-19:43
+69            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.IncomingCallActivity"
+69-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-103
+70            android:excludeFromRecents="true"
+70-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-46
+71            android:noHistory="true"
+71-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+72            android:screenOrientation="sensorPortrait"
+72-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-55
+73            android:showOnLockScreen="true"
+73-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-44
+74            android:showWhenLocked="true"
+74-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-42
+75            android:taskAffinity="com.connectycube.flutter.connectycube_flutter_call_kit.INCOMING_CALL_AFFINITY"
+75-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-113
+76            android:theme="@android:style/Theme.Holo.NoActionBar"
+76-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-66
+77            android:turnScreenOn="true" />
+77-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-40
+78
+79        <service
+79-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-24:72
+80            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.background_isolates.ConnectycubeFlutterBgPerformingService"
+80-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-141
+81            android:exported="false"
+81-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-37
+82            android:permission="android.permission.BIND_JOB_SERVICE" />
+82-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-69
+83        <service
+83-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-31:19
+84            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.ConnectycubeFCMService"
+84-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-105
+85            android:exported="false" >
+85-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-37
+86            <intent-filter>
+86-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+87                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+87-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-78
+87-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-75
+88            </intent-filter>
+89        </service>
+90        <service
+90-->[com.google.firebase:firebase-messaging-ktx:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6171a44a3c864ee729f9129680d1b3d7/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:26:9-32:19
+91            android:name="com.google.firebase.components.ComponentDiscoveryService"
+91-->[com.google.firebase:firebase-messaging-ktx:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6171a44a3c864ee729f9129680d1b3d7/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:27:13-84
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-messaging-ktx:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6171a44a3c864ee729f9129680d1b3d7/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:28:13-37
+94            <meta-data
+94-->[com.google.firebase:firebase-messaging-ktx:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6171a44a3c864ee729f9129680d1b3d7/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:29:13-31:85
+95                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+95-->[com.google.firebase:firebase-messaging-ktx:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6171a44a3c864ee729f9129680d1b3d7/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:30:17-126
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-messaging-ktx:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6171a44a3c864ee729f9129680d1b3d7/jetified-firebase-messaging-ktx-23.0.0/AndroidManifest.xml:31:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/739fc9f4953c471916a886011ebbf8fa/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+98                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+98-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/739fc9f4953c471916a886011ebbf8fa/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-common-ktx:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/739fc9f4953c471916a886011ebbf8fa/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+101-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-datatransport:18.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6e4079963347a42bc11581607a7e9c40/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+104                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+104-->[com.google.firebase:firebase-datatransport:18.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6e4079963347a42bc11581607a7e9c40/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-datatransport:18.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/6e4079963347a42bc11581607a7e9c40/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:17.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/a7019bfe75f191a3cba05e5c04624856/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+107-->[com.google.firebase:firebase-installations:17.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/a7019bfe75f191a3cba05e5c04624856/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:17.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/a7019bfe75f191a3cba05e5c04624856/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+109        </service>
+110
+111        <receiver
+111-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+112            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+112-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+113            android:exported="true"
+113-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+114            android:permission="com.google.android.c2dm.permission.SEND" >
+114-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+115            <intent-filter>
+115-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+116                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+116-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+116-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+117            </intent-filter>
+118        </receiver>
+119        <!--
+120             FirebaseMessagingService performs security checks at runtime,
+121             but set to not exported to explicitly avoid allowing another app to call it.
+122        -->
+123        <service
+123-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+124            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+124-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+125            android:directBootAware="true"
+125-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+126            android:exported="false" >
+126-->[com.google.firebase:firebase-messaging:23.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/1b8a350ada97863b49afea4816ff452f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+127            <intent-filter android:priority="-500" >
+127-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+128                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+128-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-78
+128-->[:connectycube_flutter_call_kit] /home/luca/Documents/Mobile/cicaboat/build/connectycube_flutter_call_kit/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-75
+129            </intent-filter>
+130        </service>
+131        <service
+131-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/8f870469417a19676666c1ae8a42f515/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+132            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+132-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/8f870469417a19676666c1ae8a42f515/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+133            android:exported="false" >
+133-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/8f870469417a19676666c1ae8a42f515/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+134            <meta-data
+134-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/8f870469417a19676666c1ae8a42f515/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+135                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+135-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/8f870469417a19676666c1ae8a42f515/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+136                android:value="cct" />
+136-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/8f870469417a19676666c1ae8a42f515/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+137        </service>
+138
+139        <provider
+139-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+140            android:name="com.google.firebase.provider.FirebaseInitProvider"
+140-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+141            android:authorities="lucagessi.cicaboat.firebaseinitprovider"
+141-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:20.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/63bd66ee5f778cdf068b521e311bfeab/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+145
+146        <meta-data
+146-->[com.google.android.gms:play-services-basement:17.2.1] /home/luca/.gradle/caches/transforms-2/files-2.1/0bb55423857de8364e03220462fba20a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+147            android:name="com.google.android.gms.version"
+147-->[com.google.android.gms:play-services-basement:17.2.1] /home/luca/.gradle/caches/transforms-2/files-2.1/0bb55423857de8364e03220462fba20a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+148            android:value="@integer/google_play_services_version" />
+148-->[com.google.android.gms:play-services-basement:17.2.1] /home/luca/.gradle/caches/transforms-2/files-2.1/0bb55423857de8364e03220462fba20a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+149
+150        <service
+150-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+151            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+151-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+152            android:exported="false"
+152-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+153            android:permission="android.permission.BIND_JOB_SERVICE" >
+153-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+154        </service>
+155
+156        <receiver
+156-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+157            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+157-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+158            android:exported="false" />
+158-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/luca/.gradle/caches/transforms-2/files-2.1/327235cde6e8ea11f1747755a26e5eb9/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+159    </application>
+160
+161</manifest>

@@ -7889,5 +7889,5 @@ com.google.android.gms.common.stats.ConnectionTracker:
     private static boolean zzfp
 kotlin.KotlinVersion:
     public static final kotlin.KotlinVersion$Companion Companion
-io.flutter.plugin.common.BinaryMessenger$-CC
 io.flutter.plugin.platform.PlatformView$-CC
+io.flutter.plugin.common.BinaryMessenger$-CC

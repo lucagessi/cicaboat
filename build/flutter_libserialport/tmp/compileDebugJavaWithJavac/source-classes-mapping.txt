@@ -1,0 +1,2 @@
+org/sigrok/flutter_libserialport/BuildConfig.java
+ org.sigrok.flutter_libserialport.BuildConfig
